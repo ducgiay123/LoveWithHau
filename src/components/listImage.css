@@ -1,0 +1,19 @@
+.listContainer {
+  text-align: center;
+}
+.ourPicture {
+  -webkit-box-shadow: 0px 0px 16px -1px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 0px 16px -1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 16px -1px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+  object-fit: scale-down;
+  width: 28%;
+  height: 250px;
+}
+.ourPicture.img1,
+.img0,
+.img4,
+.img3,
+.img8 {
+  object-fit: cover;
+}

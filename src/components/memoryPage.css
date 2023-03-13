@@ -1,0 +1,94 @@
+.memoryPage {
+  top: 70px;
+  position: relative;
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fcfcfc;
+  z-index: 0;
+}
+.memoryContainer {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+}
+.memoryTitle {
+  text-align: center;
+  margin: 0 15% 50px;
+}
+.memoryTitle h1 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-size: 60px;
+  font-family: "Great Vibes", cursive;
+}
+.rowStory {
+  display: flex;
+  justify-content: center;
+  padding-top: 38px;
+}
+.storyPicture {
+  justify-content: end;
+  display: flex;
+  height: 100%;
+  z-index: 1;
+  width: 30%;
+}
+.heartContainer {
+  width: 16.66666667%;
+  display: flex;
+  float: none;
+  justify-content: center;
+  align-items: center;
+}
+.hearDiv {
+  text-align: center;
+  display: inline-block;
+  background: url(../Asserts/heart_img_story.png) no-repeat;
+  background-size: 90px;
+  width: 90px;
+  height: 90px;
+  color: #fff;
+  line-height: 1em;
+}
+.year {
+  font-size: 21px;
+  margin-top: 20%;
+}
+.month {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.storyContent {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  float: none;
+  z-index: 1;
+  width: 30%;
+}
+.storyContent p {
+  font-family: "Roboto", sans-serif;
+  color: #666;
+  font-weight: 500;
+}
+.storyContent h3 {
+  font-size: 28px;
+  font-family: "Courgette", cursive;
+}
+.verticleLine {
+  position: absolute;
+  background-color: #eee;
+  width: 1px;
+  height: 89%;
+  margin: auto;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  padding: 0;
+  z-index: -1;
+}
