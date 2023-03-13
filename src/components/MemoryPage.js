@@ -91,8 +91,8 @@ const MemoryPage = () => {
           </div>
           <div className="heartContainer">
             <div className="hearDiv">
-              <div className="year">2022</div>
-              <div className="month">July</div>
+              <div className="year">2023</div>
+              <div className="month">Jan</div>
             </div>
           </div>
           <div className="storyContent">
