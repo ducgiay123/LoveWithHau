@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc62cbdd.css",
+    "main.js": "/static/js/main.c9aeda02.js",
+    "static/media/BanaHill.jpg": "/static/media/BanaHill.cfde47709828112f7768.jpg",
+    "static/media/trung.jpg": "/static/media/trung.ad433a0e3bae8a4ea219.jpg",
+    "static/media/10.jpg": "/static/media/10.16f69a9efccb91a1d87e.jpg",
+    "static/media/hau.jpg": "/static/media/hau.3d7cf9198945232aff2b.jpg",
+    "static/media/1.jpg": "/static/media/1.9431714aeda39ac1ec4b.jpg",
+    "static/media/6.jpg": "/static/media/6.152d59dc2c53f8609b1a.jpg",
+    "static/media/7.jpg": "/static/media/7.419ecd645d54db54cec2.jpg",
+    "static/media/3.jpg": "/static/media/3.aa4bff41e2569688aaa1.jpg",
+    "static/media/kissing.jpg": "/static/media/kissing.bfa500f75449ff5c202b.jpg",
+    "static/media/Birtday.jpg": "/static/media/Birtday.9a60032dd571640d04c8.jpg",
+    "static/media/5.jpg": "/static/media/5.3e6f827877aab0bd1b2d.jpg",
+    "static/media/8.jpg": "/static/media/8.d17bd57871046a88f443.jpg",
+    "static/media/2.jpg": "/static/media/2.309df85881f752cacd43.jpg",
+    "static/media/4.jpg": "/static/media/4.984563f8ba9e411e44c0.jpg",
+    "static/media/DaLatTime.jpg": "/static/media/DaLatTime.fa5966001f08bbe4678b.jpg",
+    "static/media/firstPicture.jpg": "/static/media/firstPicture.04fa82dab8222d27beca.jpg",
+    "index.html": "/index.html",
+    "main.bc62cbdd.css.map": "/static/css/main.bc62cbdd.css.map",
+    "main.c9aeda02.js.map": "/static/js/main.c9aeda02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc62cbdd.css",
+    "static/js/main.c9aeda02.js"
+  ]
+}
