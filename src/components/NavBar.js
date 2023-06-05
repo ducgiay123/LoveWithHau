@@ -56,7 +56,13 @@ const NavBar = () => {
             </Link>
           </li>
           <li className="navLink">
-            <Link to="" spy={true} smooth={true} offset={0} duration={500}>
+            <Link
+              to="ourMemory"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
               Our Memory
             </Link>
           </li>

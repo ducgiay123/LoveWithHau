@@ -5,7 +5,6 @@ import "./ourDayPage.css";
 const OurDayPage = () => {
   const beginDate = new Date("2022-07-27T16:00:00Z");
   const [currentDate, setCurrentDate] = useState(new Date());
-
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentDate(new Date());
@@ -30,7 +29,9 @@ const OurDayPage = () => {
   const lastDayOfMonth = new Date(year, today.getMonth() + 1, 0).getDate();
 
   const days = Math.floor(secondsDiff / (60 * 60 * 24));
-  const daysDiff = lastDayOfMonth - today.getDate();
+  const daysDiff = Math.abs(beginDate.getDate() - today.getDate());
+
+  // console.log(today);
   const hours = Math.floor((secondsDiff % (60 * 60 * 24)) / (60 * 60));
   const minutes = Math.floor((secondsDiff % (60 * 60)) / 60);
   const seconds = secondsDiff % 60;
